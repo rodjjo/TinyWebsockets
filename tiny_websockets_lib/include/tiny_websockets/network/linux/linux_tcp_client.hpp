@@ -2,6 +2,7 @@
 
 #ifdef __linux__ 
 
+#include <cstdint>
 #include <tiny_websockets/internals/ws_common.hpp>
 #include <tiny_websockets/network/tcp_client.hpp>
 #include <tiny_websockets/network/tcp_socket.hpp>
