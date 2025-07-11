@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.8)
+cmake_minimum_required(VERSION 3.10)
 set (CMAKE_CXX_STANDARD 14)
 project(tiny_websockets_lib C CXX)
 
@@ -18,7 +18,7 @@ file(GLOB_RECURSE tinyws_SOURCES
     "src/*.cpp"
 )
 
-file(GLOB_RECURSE tinyws_HEADERS 
+file(GLOB_RECURSE tinyws_HEADERS
     "include/*.h"
     "include/*.hpp"
 )
